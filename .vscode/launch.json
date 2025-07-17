@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/nfs_beijing/kubeflow-user/zhangyang_2024/workspace/BSQ_lightning/task1_VQ/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--config_name", "VQ-4096",
+            ],
+            "env": {
+                "PYTHONPATH": "/nfs_beijing/kubeflow-user/zhangyang_2024/workspace/BSQ_lightning",
+                "CUDA_VISIBLE_DEVICES": "1",
+            },
+        }
+    ]
+}
